@@ -5,4 +5,5 @@ const day = Math.floor(Math.random() * 7)
 document.write(`
 <div>Случайный день: ${day}.</div>
 <div>Случайный месяц: ${month}.</div>
+<divСумма: ${month + day}.</div>
 `)
