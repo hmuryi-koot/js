@@ -1,0 +1,19 @@
+:root {
+	/* Шрифт */
+	--font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	--font-size: 18px;
+
+	/* Цвета */
+	--color-cloud-burst: #22325e;
+	--color-cadet-blue: #9fadc2;
+	--color-light: #fff;
+
+	--color-shark: #232529;
+	--color-dark-gray: #292c31;
+	--color-mischka: #e2e3e7;
+	--color-charade: #282a36;
+
+	/* Цвета страницы */
+	--bgc: var(--color-shark);
+	--text-color: var(--color-mischka);
+}

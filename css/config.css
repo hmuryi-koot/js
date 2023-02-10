@@ -1,0 +1,19 @@
+@import url("vars.css");
+@import url("reset.css");
+
+body {
+	background-color: var(--bgc);
+	color: var(--text-color);
+}
+.wrapper {
+	overflow: clip;
+	display: grid;
+	grid-template-columns: 270px 1fr;
+	height: 100%;
+	column-gap: 15px;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
