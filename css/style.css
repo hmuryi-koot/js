@@ -1,2 +1,8 @@
+/* Конфигурация */
 @import url("config.css");
+/* Стили основных страниц */
 @import url("main.css");
+/* Стили отдельных уроков */
+@import url("lessons.css");
+/* Адаптив */
+@import url("adaptive.css");

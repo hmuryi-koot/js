@@ -2,15 +2,16 @@
 @import url("reset.css");
 
 body {
+	scroll-behavior: smooth;
 	background-color: var(--bgc);
 	color: var(--text-color);
+	line-height: 1.2;
 }
 .wrapper {
 	overflow: clip;
 	display: grid;
-	grid-template-columns: 270px 1fr;
+	grid-template-columns: 270px auto;
 	height: 100%;
-	column-gap: 15px;
 }
 [class*="__container"] {
 	max-width: 1230px;

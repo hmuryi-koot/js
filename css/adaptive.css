@@ -1,0 +1,32 @@
+@media (max-width: 992px) {
+	.wrapper {
+		grid-template-columns: 200px auto;
+	}
+	.aside {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.aside__title {
+		font-size: 16px;
+	}
+	.aside__item a {
+		font-size: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.wrapper {
+		grid-template-columns: 0px auto;
+	}
+	.aside {
+		overflow: hidden;
+		padding: 0;
+	}
+}
+@media (max-width: 480px) {
+}
+/* MIN */
+@media (min-width: 992px) {
+	.wrapper {
+		column-gap: 15px;
+	}
+}
