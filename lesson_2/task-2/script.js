@@ -1,5 +1,5 @@
-const a = parseInt(prompt('Введите переменную a', 0))
-const b = parseInt(prompt('Введите переменную b', 0))
+const a = parseFloat(prompt('Введите переменную a', 0))
+const b = parseFloat(prompt('Введите переменную b', 0))
 
 document.write(`
 <figure>
@@ -19,8 +19,8 @@ document.write(`
 		<tr>
 			<td style="background-color:#692b79">${a}</td>
 			<td style="background-color:#692b79">${b}</td>
-			<td>${a + b}</td>
-			<td>${a * b}</td>
+			<td>${(a + b).toFixed(2)}</td>
+			<td>${(a * b).toFixed(2)}</td>
 			<td>${(a / b).toFixed(2)}</td>
 		</tr>
 	</tbody>

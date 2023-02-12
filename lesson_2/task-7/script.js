@@ -1,12 +1,12 @@
 // Ввод данных 
 // Первый товар
-const firstProduct = parseInt(prompt('Введите количество первого товара', 1))
+const firstProduct = parseFloat(prompt('Введите количество первого товара', 1))
 const firstPrice = parseFloat(prompt('Введите стоимость первого товара', 1))
 // Второй товар
-const secondProduct = parseInt(prompt('Введите количество второго товара', 1))
+const secondProduct = parseFloat(prompt('Введите количество второго товара', 1))
 const secondPrice = parseFloat(prompt('Введите стоимость второго товара', 1))
 // Третий товар
-const thirdProduct = parseInt(prompt('Введите количество третьего товара', 1))
+const thirdProduct = parseFloat(prompt('Введите количество третьего товара', 1))
 const thirdPrice = parseFloat(prompt('Введите стоимость третьего товара', 1))
 
 // Подсчет данных

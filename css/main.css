@@ -73,6 +73,9 @@
 .section-lesson__subtitle {
 	font-size: 22px;
 }
+.section-lesson__row:not(:last-child) {
+	margin-bottom: 30px;
+}
 /* ============ tasks ============ */
 .tasks {
 	list-style: none;
