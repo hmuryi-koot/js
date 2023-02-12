@@ -19,7 +19,7 @@ document.write(`
 	<li><b>Количество элементов</b> - ${elementsQty} шт.</li>
 	<li><b>Ширина элементов в px (без учета отступа)</b> - ${elementWidthInPixels.toFixed(3)}px</li>
 	<li><b>Ширина элементов в % (без учета отступа)</b> - ${elementWidthInPercents.toFixed(3)}%</li>
-	<li><b>Ширина элементов в px (без учета отступа)</b> - ${elementWidthInPixelsWithGap.toFixed(3)}px</li>
-	<li><b>Ширина элементов в % (без учета отступа)</b> - ${elementWidthInPercentsWithGap.toFixed(3)}%</li>
+	<li><b>Ширина элементов в px (с учетом отступа)</b> - ${elementWidthInPixelsWithGap.toFixed(3)}px</li>
+	<li><b>Ширина элементов в % (с учетом отступа)</b> - ${elementWidthInPercentsWithGap.toFixed(3)}%</li>
 </ul>
 `)

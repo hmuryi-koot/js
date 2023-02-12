@@ -19,10 +19,10 @@ const secondTask = Math.sqrt(secondTask_3)
 
 // Результат третьего задания
 const thirdTask_1 = (a + b) * c
-const thirdTask = Math.pow(thirdTask_1, 1 / 3)
+const thirdTask = Math.pow(thirdTask_1, 1 / 3) // Math.cbrt()
 
 // Результат четвертого задания
-const fourthTask_1 = a / b * -1
+const fourthTask_1 = a / -b
 const fourthTask = Math.sin(fourthTask_1)
 
 // Вывод ответа

@@ -9,5 +9,6 @@ const fractional = x % 1
 document.write(`
 <div>Введенное число ${x}</div>
 <div>Целая часть ${whole}</div>
-<div>Дробная часть ${fractional}</div>
+<div>Дробная часть ${fractional.toFixed(3)}</div>
 `)
+{/* <div>Дробная часть ${fractional}</div> */ }

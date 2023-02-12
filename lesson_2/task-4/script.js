@@ -1,5 +1,5 @@
 // Ввод переменных
-const products = prompt('Введите количество товара', 1)
+const products = parseFloat(prompt('Введите количество товара', 1))
 const price = parseFloat(prompt('Введите стоимость одного товара ($)', 100))
 
 const VAT_PERCENT = 0.05
