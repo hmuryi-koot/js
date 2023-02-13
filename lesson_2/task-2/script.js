@@ -27,7 +27,7 @@ document.write(`
 			<td style="background-color:#692b79">${a}</td>
 			<td style="background-color:#692b79">${b}</td>
 			<td>${summa.toFixed(2)}</td>
-			<td>${productOfNumbers.toFixed(2)}</td>
+			<td>${product.toFixed(2)}</td>
 			<td>${quotient.toFixed(2)}</td>
 		</tr>
 	</tbody>
