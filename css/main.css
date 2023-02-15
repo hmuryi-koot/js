@@ -56,6 +56,9 @@
 .main__title:not(:last-child) {
 	margin-bottom: 40px;
 }
+.main__section:not(:last-child) {
+	margin-bottom: 80px;
+}
 /* ============ section-lesson ============ */
 .section-lesson__title {
 	font-size: 24px;
