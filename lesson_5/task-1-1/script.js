@@ -12,10 +12,10 @@ for (let i = 0; i < numberOfLoopRepetitions; i++) {
 	// Получение рандомного числа
 	const randomNumber = Math.floor(Math.random() * 99 + 1)
 	// Запоминание рандомного числа
-	listItems += `<li>${randomNumber}</li>`
+	listItems += `<li style="list-style: initial;">${randomNumber}</li>`
 }
 // Вывод данных
-document.write(`<ol style="padding-left:20px;">${listItems}</ol>`)
+document.write(`<ul style="padding-left:20px;">${listItems}</ul>`)
 
 
 
