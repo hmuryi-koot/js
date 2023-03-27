@@ -11,7 +11,8 @@ let startRange = Math.min(startUserRange, endUserRange)
 const endRange = Math.max(startUserRange, endUserRange)
 
 // Установка первого значения нечетным числом? которое было до диапазона.
-if (startRange % 2 === 0) startRange--
+// if (startRange % 2 === 0) startRange--
+startRange += startRange % 2 + 1
 
 // Получение всего диапазона
 const range = endRange - startRange
@@ -19,14 +20,11 @@ const range = endRange - startRange
 // Результат
 let result = 0
 
-// Нахождениен суммы
-// for (let i = 2; i < range && i <= 10; i += 2) {
-// 	result += startRange + i
+// for (let i = startRange, j = 0; i < range && j < 5; i += 2, j++) {
+// result += i
 // }
-
-for (let i = 2, j = 0; i < range && j < 5; i += 2, j++) {
-	result += startRange + i
-
+for (let i = 0; i < 5; i++) {
+	result += i * 2 + startRange
 }
 
 document.write(`Вы ввели начало диапазона ${startUserRange} и конец диапазона ${endUserRange}.

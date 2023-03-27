@@ -1,7 +1,7 @@
 
 const cntLesson = 6
 
-const emptyLesson = [4, 6]
+const emptyLesson = [4, 6, 7]
 
 let menuItems = '<li class="aside__item"><a href="../../">Все уроки</a></li>'
 
