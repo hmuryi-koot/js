@@ -1,25 +1,17 @@
 
-const cntLesson = 6
+const cntLesson = 8
 
-const emptyLesson = [4, 6, 7]
+const emptyLesson = [4, 6]
 
 let menuItems = '<li class="aside__item"><a href="../../">Все уроки</a></li>'
 
 for (let index = 2; index <= cntLesson; index++) {
-
+	console.log(emptyLesson.includes(index), index);
 	if (emptyLesson.includes(index)) continue
 
 	menuItems += `
 	<li class="aside__item">
 		<a href="../../#lesson-${index}">Урок ${index}</a>
-		<ul class="aside__list">
-			<li class="aside__item">
-				<a href="../../#lesson-${index}_basic">Основные задачи</a>
-			</li>
-			<li class="aside__item">
-				<a href="../../#lesson-${index}_additional">Дополнительные задачи</a>
-			</li>
-		</ul>
 	</li>
 	`
 }
