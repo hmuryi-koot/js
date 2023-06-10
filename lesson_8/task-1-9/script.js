@@ -29,10 +29,17 @@ const getRandom = function (min = 0, max = cells - 1) {
 
 // Получение ячейки без бомбы
 const getCell = function (field) {
-	let randoNumber = getRandom()
 
+	// 1)
+	let randoNumber = getRandom()
 	while (field[randoNumber] !== 0)
 		randoNumber = getRandom()
+
+	// 2)
+	// let randoNumber
+	// do {
+	// 	randoNumber = getRandom()
+	// } while (field[randoNumber] !== 0)
 
 	return randoNumber
 }

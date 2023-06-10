@@ -1,14 +1,14 @@
 
-const cntLesson = 9
+const cntLesson = 11
 
 const emptyLesson = [4, 6]
 
 let menuItems = '<li class="aside__item"><a href="../../">Все уроки</a></li>'
 
 for (let index = 2; index <= cntLesson; index++) {
-	if (emptyLesson.includes(index)) continue
+   if (emptyLesson.includes(index)) continue
 
-	menuItems += `
+   menuItems += `
 	<li class="aside__item">
 		<a href="../../#lesson-${index}">Урок ${index}</a>
 	</li>
