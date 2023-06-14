@@ -1,5 +1,5 @@
 
-const cntLesson = 12
+const cntLesson = 14
 
 const emptyLesson = [4, 6]
 
