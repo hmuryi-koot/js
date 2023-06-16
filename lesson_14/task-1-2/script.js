@@ -11,14 +11,3 @@ const date = {
 }
 
 console.log(getYear(date, 12));
-
-
-
-// const date = {
-//    day: 1,
-//    month: 1,
-//    year: 2000,
-//    getYear: function (n) { return this.year + Math.trunc((n + this.month - 1) / 12) }
-// }
-
-// console.log(date.getYear(12));
