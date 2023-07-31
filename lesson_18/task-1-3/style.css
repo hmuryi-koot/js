@@ -1,0 +1,31 @@
+.title {
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+.label {
+   display: flex;
+   gap: 10px;
+}
+.label:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 15px;
+   background-color: indigo;
+   margin-bottom: 10px;
+}
+hr {
+   width: 40%;
+   margin: 30px auto;
+   border: 1px solid #fff;
+}
+input {
+   padding: 5px 10px;
+   display: block;
+   margin-bottom: 15px;
+}

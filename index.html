@@ -129,6 +129,22 @@
                      </li>
                   </ul>
                </li>
+               <li class="aside__item">
+                  <a href="#lesson-17">Урок 17</a>
+                  <ul class="aside__list">
+                     <li class="aside__item">
+                        <a href="#lesson-17_basic">Основные задачи</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="aside__item">
+                  <a href="#lesson-18">Урок 18</a>
+                  <ul class="aside__list">
+                     <li class="aside__item">
+                        <a href="#lesson-18_basic">Основные задачи</a>
+                     </li>
+                  </ul>
+               </li>
             </ul>
          </nav>
       </aside>
@@ -1592,7 +1608,159 @@ let productsTitles = [‘cheese’, ‘juice’, ‘bread’]</code></pre>
                            <div class="task__inner">
                               <h3 class="task__title">Задание 4</h3>
                               <div class="task__description">
-                                 <p>Создать класс TBankomat, моделирующий работу банкомата. Класс должен содержать поля хранения количества купюр каждого из номиналов от 5 до 200 гривен. Реализовать способы нахождения наибольшей и малой сумм, которые может выдать банкомат, и способ снятия некой суммы.</p>
+                                 <p>Создать класс TBankomat, моделирующий работу банкомата. Класс должен содержать поля хранения количества купюр каждого из номиналов от 5 до 100 бел. руб. Реализовать способы нахождения наибольшей и малой сумм, которые может выдать банкомат, и способ снятия некой суммы.</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                  </ol>
+               </div>
+            </section>
+            <section id="lesson-17" class="main__section section-lesson">
+               <h2 class="section-lesson__title">Урок 17</h2>
+               <div class="section-lesson__description">
+                  <p>Объекты. Статичные методы. Агрегация, композиция.</p>
+               </div>
+               <div class="section-lesson__row">
+                  <h3 id="lesson-17_basic" class="section-lesson__subtitle">Основные задания</h3>
+                  <ol class="section-lesson__list tasks">
+                     <li class="tasks__item">
+                        <a href="lesson_17/task-1-1" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 1</h3>
+                              <div class="task__description">
+                                 <p>Создать класс, позволяющий выполнять следующие операции над массивами: нахождение количества положительных, количества отрицательных, количество вхождений некоторого числа (статические методы)</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_17/task-1-2" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 2</h3>
+                              <div class="task__description">
+                                 <p>Создать служебный автомобиль (водитель, марка, номер). Создать класс таким образом, чтобы можно было создать только один экземпляр этого класса.</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_17/task-1-3" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 3</h3>
+                              <div class="task__description">
+                                 <p>Создать класс Напоминатель. Каждые указанные количества секунд (использовать setInterval) программа напоминает о каком-то событии (это просто текст) и также выводится порядковый номер сколько раз напоминания уже было. Сделать так, чтобы нельзя было сделать одновременно несколько объектов-напоминателей. Методы остановки таймера, метод изменения сообщения без остановки таймера.</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_17/task-1-4" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 4</h3>
+                              <div class="task__description">
+                                 <p>Склад. База хранящихся на складе товаров: название товара, единица измерения, количество, фирма производитель (название, регистрационный номер). Организовать регистрацию/отгрузку товаров, фильтрацию по названию товара, фильтрацию по названию фирмы.</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_17/task-1-5" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 5</h3>
+                              <div class="task__description">
+                                 <p>Личная библиотека. Картотека домашней библиотеки: данные книги (авторы (пиб, год рождения, краткое описание), название книги, жанр, издательство (название, регистрационный номер, год задвижения)). Реализовать разделы библиотеки (специальная литература, хобби, домашнее хозяйство и т.д.), происхождение книги и наличие в настоящее время. Организовать добавление/извлечение книг и выбор книг под названием, по ФИО автора, по издательству.</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_17/task-1-6" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 6</h3>
+                              <div class="task__description">
+                                 <p>Даны два класса MultChecker (класс для проверки таблицы умножения – рандомно генерируемые числа, которые нужно перемножать), AddChecker (класс для проверки добавления – рандомно генерируемые числа в заданном диапазоне, которые нужно добавлять). Оба класса посылают результаты тестирования объекта класса Hystory, который сохраняет историю тестирования в массиве в виде объектов</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                  </ol>
+               </div>
+            </section>
+            <section id="lesson-18" class="main__section section-lesson">
+               <h2 class="section-lesson__title">Урок 18</h2>
+               <div class="section-lesson__description">
+                  <p>DOM, BOM, event.</p>
+               </div>
+               <div class="section-lesson__row">
+                  <h3 id="lesson-18_basic" class="section-lesson__subtitle">Основные задания</h3>
+                  <ol class="section-lesson__list tasks">
+                     <li class="tasks__item">
+                        <a href="lesson_18/task-1-1" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 1</h3>
+                              <div class="task__description">
+                                 <p>Калькулятор</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_18/task-1-2" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 2</h3>
+                              <div class="task__description">
+                                 <p>Сделать конвертер валют (курсы валют – константы в скрипте)</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_18/task-1-3" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 3</h3>
+                              <div class="task__description">
+                                 <p>Пользователь задает год рождения. Определить количество лет пользователя.</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_18/task-1-4" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 4</h3>
+                              <div class="task__description">
+                                 <p>Заранее задан в скрипте массив со списком желаний. После загрузки страницы случайным образом выбираются 3 и отображаются в отдельных div (их нужно создать и добавить на страницу)</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_18/task-1-5" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 5</h3>
+                              <div class="task__description">
+                                 <p>Отразить таблицу 3*4 со случайными числами (ее нужно динамически создать и вставить на страницу)</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_18/task-1-6" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 6</h3>
+                              <div class="task__description">
+                                 <p>Пользователь задает количество оценок и нажимает кнопку «get table». В результате формируется таблица из input, куда пользователь вводит оценки. После этого нажимает кнопку “get sum” и находит среднее значение.+</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="tasks__item">
+                        <a href="lesson_18/task-1-7" target="_blank" class="task">
+                           <div class="task__inner">
+                              <h3 class="task__title">Задание 7</h3>
+                              <div class="task__description">
+                                 <p>Путешествие состоит из 3 этапов. На каждом этапе пользователь может выбрать один из видов транспорта (авто, автобус, самолет – выпадающий список), питание (завтрак, обед, ужин – checkbоx) и одного из 3-х гидов (использовать radio buttons). Цены определите сами. Подсчитать общую стоимость.</p>
                               </div>
                            </div>
                         </a>

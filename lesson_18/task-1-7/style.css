@@ -1,0 +1,59 @@
+hr {
+   width: 40%;
+   margin: 30px auto;
+   border: 1px solid #fff;
+}
+.label {
+   display: flex;
+   gap: 10px;
+   background-color: rgba(216, 176, 176, 0.4);
+   padding: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s ease-in-out 0s;
+}
+.label:not(:last-child) {
+   margin-bottom: 10px;
+}
+.label:hover {
+   background-color: rgba(216, 176, 176, 0.7);
+}
+.btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 15px;
+   background-color: indigo;
+   margin-bottom: 10px;
+}
+input {
+   padding: 5px 10px;
+   display: block;
+}
+
+table input {
+   width: 100% !important;
+}
+
+select {
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: inherit;
+   cursor: pointer;
+}
+
+.render {
+   margin: 0 auto;
+   max-width: 400px;
+}
+
+.choice {
+   padding: 20px 10px;
+   background-color: #770b63;
+   border-radius: 15px;
+}
+.choice:not(:last-child),
+select:not(:last-child) {
+   margin-bottom: 20px;
+}
