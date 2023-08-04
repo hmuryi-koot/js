@@ -48,6 +48,11 @@ class List {
    }
 }
 class Sort {
+   constructor(firstList, secondList) {
+      // Создание экземпляров списков
+      this.firstList = firstList
+      this.secondList = secondList
+   }
    moving(e) {
       const target = e.target
       const otherListWrapper = target.closest('.list') !== this.firstList ? this.firstList : this.secondList
@@ -62,9 +67,7 @@ class Sort {
    render(element) {
       const wrapper = document.createElement('div')
       wrapper.classList.add('wrapper')
-      // Создание экземпляров списков
-      this.firstList = new List('Список 1', ['1-1', '1-2']).getList()
-      this.secondList = new List('Список 2', ['2-1', '2-2', '2-3']).getList()
+
       // Добавление событий
       this.firstList.addEventListener('click', this.moving.bind(this))
       this.secondList.addEventListener('click', this.moving.bind(this))
@@ -75,4 +78,7 @@ class Sort {
 }
 
 const render = document.querySelector('.render')
-new Sort().render(render)
+new Sort(
+   new List('Список 1', ['1-1', '1-2']).getList(),
+   new List('Список 2', ['2-1', '2-2', '2-3']).getList()
+).render(render)
